@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# Funding Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project demonstrates a funding contract where users can fund the contract for its utility(can be anything-coin) and the owner can withdraw the funded tokens. This project uses Hardhat and Ethers.js module to work.
 
-Try running some of the following tasks:
+Run the following commands after cloning the repo into your directory:
 
 ```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
+yarn i
+yarn hardhat deploy
 ```
